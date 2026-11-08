@@ -1,0 +1,395 @@
+{
+ "paginas": {
+  "acessibilidade.html": {
+   "320": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "375": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "768": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "1024": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "1440": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   }
+  },
+  "contato.html": {
+   "320": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "375": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "768": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "1024": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "1440": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   }
+  },
+  "galeria.html": {
+   "320": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": [
+     "http://127.0.0.1:8765/assets/img/economia-circular.svg",
+     "http://127.0.0.1:8765/assets/img/campanha-escola.svg"
+    ]
+   },
+   "375": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": [
+     "http://127.0.0.1:8765/assets/img/economia-circular.svg",
+     "http://127.0.0.1:8765/assets/img/campanha-escola.svg"
+    ]
+   },
+   "768": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "1024": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "1440": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": [
+     "http://127.0.0.1:8765/assets/img/placa-circuito.svg",
+     "http://127.0.0.1:8765/assets/img/ponto-coleta.svg",
+     "http://127.0.0.1:8765/assets/img/ciclo-logistica-reversa.svg",
+     "http://127.0.0.1:8765/assets/img/triagem-materiais.svg",
+     "http://127.0.0.1:8765/assets/img/componentes-reaproveitaveis.svg",
+     "http://127.0.0.1:8765/assets/img/descarte-correto.svg",
+     "http://127.0.0.1:8765/assets/img/economia-circular.svg",
+     "http://127.0.0.1:8765/assets/img/campanha-escola.svg"
+    ]
+   }
+  },
+  "impacto.html": {
+   "320": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "375": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "768": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "1024": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "1440": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   }
+  },
+  "index.html": {
+   "320": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "375": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "menu_aberto": "true",
+   "menu_esc": "false",
+   "768": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "1024": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "1440": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   }
+  },
+  "midia.html": {
+   "320": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "375": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "768": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "1024": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "1440": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   }
+  },
+  "noticias.html": {
+   "320": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "375": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "768": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "1024": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "1440": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   }
+  },
+  "orcamento_hospedagem.html": {
+   "320": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "375": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "768": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "1024": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "1440": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   }
+  },
+  "projetos.html": {
+   "320": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": [
+     "http://127.0.0.1:8765/assets/img/componentes-reaproveitaveis.svg"
+    ]
+   },
+   "375": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "768": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "1024": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "1440": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   }
+  },
+  "sobre.html": {
+   "320": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "375": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "768": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "1024": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   },
+   "1440": {
+    "overflow_px": 0,
+    "console": [],
+    "http_fail": [],
+    "imgs_quebradas": []
+   }
+  }
+ },
+ "midia": {
+  "video": {
+   "controls": true,
+   "autoplay": false,
+   "poster": "retech-logistica-reversa-narrado-poster.jpg",
+   "src": "retech-logistica-reversa-narrado.mp4",
+   "dur": 64.737007,
+   "error": null,
+   "tracks": 0
+  },
+  "audio": {
+   "controls": true,
+   "autoplay": false,
+   "dur": 64.737234,
+   "toca": true,
+   "error": null,
+   "src": "retech-logistica-reversa-narracao.mp3"
+  },
+  "video_play": true,
+  "iframe": [
+   {
+    "title": "Mapa do OpenStreetMap para explorar locais de coleta",
+    "src": "https://www.openstreetmap.org/export/embed.html?bbox=-74.0%2C-34.0%2C-34.0%2C5.5&layer=mapnik"
+   }
+  ]
+ },
+ "formulario": {
+  "tel_valido": [
+   true,
+   true,
+   true
+  ],
+  "tel_invalido": [
+   false,
+   false,
+   false
+  ],
+  "qtd": [
+   true,
+   false,
+   false
+  ],
+  "data_min": "2026-11-03",
+  "data_passada_valida": false,
+  "data_futura_valida": true,
+  "email_invalido": true,
+  "vazio_bloqueado": true,
+  "confirmacao": "Validação concluída: todos os campos estão corretos. Esta é ",
+  "requisicoes_saida": []
+ },
+ "skip_foco": "skip-link",
+ "skip_destino": "conteudo"
+}

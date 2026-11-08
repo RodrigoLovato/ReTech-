@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galeria de imagens | ReTech</title>
+  <meta name="description" content="Galeria com ilustrações sobre eletrônicos, coleta, triagem, componentes e economia circular, com texto alternativo, legenda e fonte.">
+  <meta name="author" content="Equipe EcoTech">
+  <meta name="theme-color" content="#2E7D32">
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/base.css">
+  <script src="js/menu.js" defer></script>
+  <script src="js/acessibilidade.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" id="topo">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.svg" alt="" width="40" height="40">
+        <span>ReTech<small>Equipe EcoTech</small></span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-lista">Menu</button>
+      <nav class="site-nav" aria-label="Menu principal">
+        <ul class="nav-list" id="menu-lista">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="impacto.html">Impacto</a></li>
+            <li><a href="acessibilidade.html">Acessibilidade</a></li>
+            <li><a href="galeria.html" aria-current="page">Galeria</a></li>
+            <li><a href="midia.html">Mídia</a></li>
+            <li><a href="noticias.html">Notícias</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="orcamento_hospedagem.html">Orçamento</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" tabindex="-1">
+    <section class="page-hero" aria-labelledby="titulo-pagina">
+      <div class="container">
+        <p class="breadcrumb"><a href="index.html">Início</a> · Galeria</p>
+        <h1 id="titulo-pagina">Galeria de imagens</h1>
+        <p>Ilustrações sobre eletrônicos, pontos de coleta, triagem, componentes e economia circular. Cada imagem tem texto alternativo, legenda e indicação de fonte.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="titulo-sobre-imagens">
+      <div class="container">
+        <div class="notice notice--ok">
+          <h2 id="titulo-sobre-imagens">Sobre as imagens desta galeria</h2>
+          <p>Todas as imagens são <strong>ilustrações originais em formato vetorial (SVG)</strong>, criadas para o projeto ReTech com auxílio de uma ferramenta de inteligência artificial (Claude, da Anthropic) a pedido da equipe EcoTech. Não usam fotografias, logotipos, marcas ou obras de terceiros, por isso não exigem créditos externos. São leves e se ajustam bem a qualquer tela.</p>
+          <p>Elas representam situações típicas, e não locais, pessoas ou equipamentos reais.</p>
+        </div>
+
+        <div class="gallery">
+          <figure>
+            <img src="assets/img/placa-circuito.svg" alt="Placa de circuito verde com trilhas claras, um chip central escuro, dois capacitores redondos e pontos de solda dourados." width="800" height="600" loading="lazy" decoding="async">
+            <figcaption>
+              <strong>Placa de circuito</strong>
+              As placas concentram metais e componentes que podem ser recuperados, mas também substâncias que exigem tratamento adequado.
+              <span class="credit">Fonte: ilustração original do projeto ReTech, 2026 (arquivo assets/img/placa-circuito.svg).</span>
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img src="assets/img/ponto-coleta.svg" alt="Coletor verde com símbolo de reciclagem e uma abertura para entrega de aparelhos, entre duas árvores." width="800" height="600" loading="lazy" decoding="async">
+            <figcaption>
+              <strong>Ponto de coleta</strong>
+              Coletores de eletrônicos facilitam a entrega de aparelhos pequenos sem uso, como celulares, cabos e carregadores.
+              <span class="credit">Fonte: ilustração original do projeto ReTech, 2026 (arquivo assets/img/ponto-coleta.svg).</span>
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img src="assets/img/ciclo-logistica-reversa.svg" alt="Diagrama em círculo com cinco etapas numeradas e ligadas por setas: 1 consumidor, 2 ponto de coleta, 3 triagem, 4 reciclagem e 5 indústria, em volta de uma folha verde." width="800" height="600" loading="lazy" decoding="async">
+            <figcaption>
+              <strong>Ciclo da logística reversa</strong>
+              O equipamento sai do consumidor, passa pela coleta e pela triagem, é reciclado e seus materiais voltam à indústria.
+              <span class="credit">Fonte: ilustração original do projeto ReTech, 2026 (arquivo assets/img/ciclo-logistica-reversa.svg).</span>
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img src="assets/img/triagem-materiais.svg" alt="Esteira transportando um celular, uma placa, um cabo e uma peça metálica, com três caixas abaixo rotuladas Metais, Plásticos e Placas." width="800" height="600" loading="lazy" decoding="async">
+            <figcaption>
+              <strong>Triagem de materiais</strong>
+              Na triagem, cada item é separado de acordo com o material para seguir ao processo de reciclagem adequado.
+              <span class="credit">Fonte: ilustração original do projeto ReTech, 2026 (arquivo assets/img/triagem-materiais.svg).</span>
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img src="assets/img/componentes-reaproveitaveis.svg" alt="Componentes eletrônicos sobre fundo branco: um processador com a sigla CPU, um módulo de memória, dois capacitores, uma peça dourada e um cabo." width="800" height="600" loading="lazy" decoding="async">
+            <figcaption>
+              <strong>Componentes reaproveitáveis</strong>
+              Peças em bom estado podem ser testadas e reutilizadas antes de o restante do equipamento ser reciclado.
+              <span class="credit">Fonte: ilustração original do projeto ReTech, 2026 (arquivo assets/img/componentes-reaproveitaveis.svg).</span>
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img src="assets/img/descarte-correto.svg" alt="Pessoa de camiseta azul estendendo o braço para entregar um celular a um coletor verde marcado com um sinal de confirmação." width="800" height="600" loading="lazy" decoding="async">
+            <figcaption>
+              <strong>Descarte correto</strong>
+              Entregar o aparelho em um canal autorizado, depois de apagar os dados pessoais, é o passo mais importante do consumidor.
+              <span class="credit">Fonte: ilustração original do projeto ReTech, 2026 (arquivo assets/img/descarte-correto.svg).</span>
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img src="assets/img/economia-circular.svg" alt="Duas setas curvas, uma verde e outra azul, formam um ciclo em volta de um notebook com uma folha na tela. Os rótulos ao redor são usar, recolher, reciclar e produzir." width="800" height="600" loading="lazy" decoding="async">
+            <figcaption>
+              <strong>Economia circular</strong>
+              Usar, recolher, reciclar e produzir de novo: a ideia é manter os materiais em circulação pelo maior tempo possível.
+              <span class="credit">Fonte: ilustração original do projeto ReTech, 2026 (arquivo assets/img/economia-circular.svg).</span>
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img src="assets/img/campanha-escola.svg" alt="Quadro verde com o texto Descarte consciente e a frase Eletrônico sem uso? Leve ao coletor, acima de três estudantes e de um coletor verde de eletrônicos." width="800" height="600" loading="lazy" decoding="async">
+            <figcaption>
+              <strong>Campanha na escola</strong>
+              Ações educativas em escolas ajudam a formar o hábito do descarte consciente desde cedo.
+              <span class="credit">Fonte: ilustração original do projeto ReTech, 2026 (arquivo assets/img/campanha-escola.svg).</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" aria-labelledby="titulo-creditos">
+      <div class="container grid grid--2">
+        <div>
+          <p class="eyebrow">Para a equipe</p>
+          <h2 id="titulo-creditos">Como creditar uma foto de terceiros</h2>
+          <p>Se, no futuro, a equipe decidir incluir fotografias reais, cada uma precisa de uma origem identificável e de uma licença compatível com o trabalho. Registre, no mínimo:</p>
+          <ul class="check-list">
+            <li>título da obra e nome do autor ou da instituição;</li>
+            <li>link da página de origem;</li>
+            <li>licença de uso (por exemplo, uma licença Creative Commons com a versão) e o link do texto da licença;</li>
+            <li>indicação de alterações, quando houver (corte, redimensionamento).</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Onde procurar</h3>
+          <p>O <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> reúne imagens com licença livre e mostra a licença e o autor de cada arquivo. Confira sempre a página da imagem antes de usá-la.</p>
+          <p>As fontes de todo o projeto ficam registradas no arquivo <code>docs/fontes.md</code>, na pasta de documentação.</p>
+          <div class="btn-row">
+            <a class="btn btn--ghost" href="projetos.html">Ver projetos</a>
+            <a class="btn btn--ghost" href="midia.html">Ver mídia</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2>ReTech</h2>
+          <p>Site educativo sobre logística reversa de lixo eletrônico, sustentabilidade e descarte correto.</p>
+          <p>Projeto acadêmico da disciplina de Front-End (UNICID), orientado pelo Prof. Paulo Fratta. O ReTech não é uma organização constituída.</p>
+        </div>
+        <div>
+          <h2>Navegação</h2>
+          <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="impacto.html">Impacto</a></li>
+          <li><a href="acessibilidade.html">Acessibilidade</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="midia.html">Mídia</a></li>
+          <li><a href="noticias.html">Notícias</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="orcamento_hospedagem.html">Orçamento</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Equipe EcoTech</h2>
+          <ul>
+            <li>Pedro Henrique de Oliveira Medeiros</li>
+            <li>Davi Cabral Paixão</li>
+            <li>Pietro Tavares</li>
+            <li>Lucas dos Santos Vicente Braga</li>
+            <li>Laura Moreti</li>
+            <li>Rodrigo Seriaco Lovato</li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-bottom"><a href="#topo">Voltar ao menu principal</a> · <a href="acessibilidade.html">Acessibilidade</a> · Conteúdo educativo; fontes e créditos em cada página.</p>
+    </div>
+  </footer>
+</body>
+</html>

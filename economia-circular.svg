@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="t d">
+  <title id="t">Economia circular de eletrônicos</title>
+  <desc id="d">Duas setas curvas formam um ciclo em volta de um notebook com uma folha na tela. Rótulos: usar, recolher, reciclar e produzir.</desc>
+  <rect width="800" height="600" fill="#F3F8F3"/>
+  <g fill="none" stroke="#2E7D32" stroke-width="26" stroke-linecap="round">
+    <path d="M200 300a200 200 0 0 1 330 -150"/><path d="M600 300a200 200 0 0 1 -330 150" stroke="#0B4F6C"/>
+  </g>
+  <path d="M530 108l36 54-64 8z" fill="#2E7D32"/><path d="M270 492l-36-54 64-8z" fill="#0B4F6C"/>
+  <g transform="translate(300 215)"><rect width="200" height="130" rx="10" fill="#1C2B20"/><rect x="12" y="12" width="176" height="96" rx="4" fill="#C8E6C9"/><rect x="-30" y="130" width="260" height="16" rx="8" fill="#546E7A"/>
+    <path d="M70 90c0-30 20-50 60-52 0 34-20 54-46 54z" fill="#2E7D32"/></g>
+  <g font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#1C2B20">
+    <text x="90" y="170" text-anchor="middle">Usar</text><text x="705" y="170" text-anchor="middle">Recolher</text>
+    <text x="95" y="470" text-anchor="middle">Reciclar</text><text x="700" y="470" text-anchor="middle">Produzir</text>
+  </g>
+</svg>

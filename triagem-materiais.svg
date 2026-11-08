@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="t d">
+  <title id="t">Triagem de materiais eletrônicos</title>
+  <desc id="d">Esteira com um celular, uma placa, um cabo e uma peça metálica, e três caixas rotuladas: metais, plásticos e placas.</desc>
+  <rect width="800" height="600" fill="#E3F1F7"/>
+  <rect y="300" width="800" height="26" fill="#1C2B20"/>
+  <rect y="326" width="800" height="14" fill="#546E7A"/>
+  <circle cx="40" cy="333" r="6" fill="#B0BEC5"/><circle cx="120" cy="333" r="6" fill="#B0BEC5"/><circle cx="200" cy="333" r="6" fill="#B0BEC5"/><circle cx="280" cy="333" r="6" fill="#B0BEC5"/><circle cx="360" cy="333" r="6" fill="#B0BEC5"/><circle cx="440" cy="333" r="6" fill="#B0BEC5"/><circle cx="520" cy="333" r="6" fill="#B0BEC5"/><circle cx="600" cy="333" r="6" fill="#B0BEC5"/><circle cx="680" cy="333" r="6" fill="#B0BEC5"/><circle cx="760" cy="333" r="6" fill="#B0BEC5"/>
+  <g transform="translate(70 215)"><rect width="70" height="85" rx="10" fill="#1C2B20"/><rect x="8" y="10" width="54" height="55" rx="4" fill="#C8E6C9"/></g>
+  <g transform="translate(220 240)"><rect width="110" height="60" rx="6" fill="#2E7D32"/><rect x="14" y="14" width="30" height="30" fill="#1C2B20"/><circle cx="80" cy="30" r="10" fill="#F9A825"/></g>
+  <g transform="translate(400 255)"><rect width="140" height="12" rx="6" fill="#1C2B20"/><path d="M140 6q40 -30 70 20" fill="none" stroke="#1C2B20" stroke-width="8" stroke-linecap="round"/><rect y="20" width="80" height="25" rx="5" fill="#0B4F6C"/></g>
+  <g transform="translate(620 225)"><rect width="70" height="75" rx="8" fill="#B0BEC5"/><rect x="12" y="12" width="46" height="8" fill="#546E7A"/><rect x="12" y="30" width="46" height="8" fill="#546E7A"/></g>
+<g transform="translate(120 380)"><rect width="160" height="150" rx="14" fill="#546E7A"/><rect x="-8" y="-14" width="176" height="28" rx="10" fill="#1C2B20" fill-opacity=".55"/><text x="80" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">Metais</text></g><g transform="translate(320 380)"><rect width="160" height="150" rx="14" fill="#0B4F6C"/><rect x="-8" y="-14" width="176" height="28" rx="10" fill="#1C2B20" fill-opacity=".55"/><text x="80" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">Plásticos</text></g><g transform="translate(520 380)"><rect width="160" height="150" rx="14" fill="#2E7D32"/><rect x="-8" y="-14" width="176" height="28" rx="10" fill="#1C2B20" fill-opacity=".55"/><text x="80" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">Placas</text></g>
+  <g fill="none" stroke="#1B5E20" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><path d="M200 120v60M180 160l20 20 20-20"/><path d="M400 120v60M380 160l20 20 20-20"/><path d="M600 120v60M580 160l20 20 20-20"/></g>
+</svg>

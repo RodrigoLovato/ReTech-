@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="t d">
+  <title id="t">Coletor de eletrônicos</title>
+  <desc id="d">Coletor verde com símbolo de reciclagem e uma abertura para entrega de aparelhos, em um ambiente com árvores.</desc>
+  <rect width="800" height="600" fill="#E3F1F7"/>
+  <rect y="440" width="800" height="160" fill="#C8E6C9"/>
+  <circle cx="130" cy="150" r="46" fill="#FFF3C4"/>
+  <g transform="translate(250 130)">
+    <rect x="0" y="40" width="300" height="300" rx="22" fill="#2E7D32"/>
+    <rect x="-14" y="10" width="328" height="48" rx="14" fill="#1B5E20"/>
+    <rect x="70" y="86" width="160" height="22" rx="11" fill="#1C2B20"/>
+    <g transform="translate(110 150)">
+      <circle cx="40" cy="40" r="38" fill="#FFFFFF"/>
+      <path d="M18 40a22 22 0 0 1 36-17M62 40a22 22 0 0 1-36 17" fill="none" stroke="#2E7D32" stroke-width="6" stroke-linecap="round"/>
+      <path d="M52 14v14H38M28 66V52h14" fill="none" stroke="#2E7D32" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect x="70" y="262" width="160" height="14" rx="7" fill="#FFFFFF" fill-opacity=".85"/>
+    <rect x="95" y="288" width="110" height="14" rx="7" fill="#FFFFFF" fill-opacity=".6"/>
+    <rect x="20" y="340" width="40" height="16" rx="8" fill="#1C2B20"/><rect x="240" y="340" width="40" height="16" rx="8" fill="#1C2B20"/>
+  </g>
+  <g transform="translate(110 360)"><rect x="-2" y="40" width="10" height="80" fill="#6D4C41"/><circle cx="3" cy="30" r="46" fill="#43A047"/></g>
+  <g transform="translate(650 380)"><rect x="-2" y="40" width="10" height="60" fill="#6D4C41"/><circle cx="3" cy="30" r="36" fill="#43A047"/></g>
+</svg>

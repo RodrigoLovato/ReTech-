@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t d">
+  <title id="t">Ciclo da logística reversa</title>
+  <desc id="d">Um celular, uma seta circular de reciclagem e uma folha verde, representando o retorno dos materiais à cadeia produtiva.</desc>
+  <rect width="400" height="400" rx="28" fill="#FFFFFF" fill-opacity=".12"/>
+  <circle cx="200" cy="200" r="132" fill="none" stroke="#FFFFFF" stroke-opacity=".35" stroke-width="3" stroke-dasharray="4 10"/>
+  <!-- setas circulares -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M96 150a118 118 0 0 1 188-34"/>
+    <path d="M284 116l2-34M284 116l-34 2"/>
+    <path d="M304 250a118 118 0 0 1-188 34"/>
+    <path d="M116 284l-2 34M116 284l34-2"/>
+  </g>
+  <!-- celular -->
+  <g transform="translate(150 118)">
+    <rect width="100" height="164" rx="16" fill="#FFFFFF"/>
+    <rect x="9" y="16" width="82" height="118" rx="6" fill="#E8F5E9"/>
+    <circle cx="50" cy="148" r="6" fill="#B7D8BA"/>
+    <!-- circuito na tela -->
+    <g fill="none" stroke="#2E7D32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M26 100h22V72h26"/>
+      <path d="M26 44h30v18"/>
+      <path d="M74 100v-14"/>
+    </g>
+    <g fill="#F9A825">
+      <circle cx="26" cy="44" r="5"/>
+      <circle cx="74" cy="72" r="5"/>
+      <circle cx="26" cy="100" r="5"/>
+    </g>
+  </g>
+  <!-- folha -->
+  <g transform="translate(280 258)">
+    <circle cx="36" cy="36" r="36" fill="#F9A825"/>
+    <path d="M16 54C16 34 28 20 56 18c0 26-14 38-34 38z" fill="#1B5E20"/>
+    <path d="M16 54l20-20" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

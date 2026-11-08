@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="t d">
+  <title id="t">Placa de circuito eletrônico</title>
+  <desc id="d">Placa verde com trilhas claras, um chip central escuro, capacitores e pontos de solda dourados.</desc>
+  <rect width="800" height="600" fill="#E8F5E9"/>
+  <rect x="70" y="70" width="660" height="460" rx="28" fill="#2E7D32"/>
+  <rect x="70" y="70" width="660" height="460" rx="28" fill="none" stroke="#1B5E20" stroke-width="8"/>
+<path d="M120 130H260V150H380" fill="none" stroke="#C8E6C9" stroke-width="5" stroke-linecap="round"/>
+<path d="M680 140H560V120H470" fill="none" stroke="#C8E6C9" stroke-width="5" stroke-linecap="round"/>
+<path d="M120 170H300V190H440" fill="none" stroke="#C8E6C9" stroke-width="5" stroke-linecap="round"/>
+<path d="M680 180H530V160H430" fill="none" stroke="#C8E6C9" stroke-width="5" stroke-linecap="round"/>
+<path d="M120 210H340V230H380" fill="none" stroke="#C8E6C9" stroke-width="5" stroke-linecap="round"/>
+<path d="M680 220H500V200H470" fill="none" stroke="#C8E6C9" stroke-width="5" stroke-linecap="round"/>
+<path d="M120 250H260V270H440" fill="none" stroke="#C8E6C9" stroke-width="5" stroke-linecap="round"/>
+<path d="M680 260H560V240H430" fill="none" stroke="#C8E6C9" stroke-width="5" stroke-linecap="round"/>
+<path d="M120 290H300V310H380" fill="none" stroke="#C8E6C9" stroke-width="5" stroke-linecap="round"/>
+<path d="M680 300H530V280H470" fill="none" stroke="#C8E6C9" stroke-width="5" stroke-linecap="round"/>
+<path d="M120 330H340V350H440" fill="none" stroke="#C8E6C9" stroke-width="5" stroke-linecap="round"/>
+<path d="M680 340H500V320H430" fill="none" stroke="#C8E6C9" stroke-width="5" stroke-linecap="round"/>
+<path d="M120 370H260V390H380" fill="none" stroke="#C8E6C9" stroke-width="5" stroke-linecap="round"/>
+<path d="M680 380H560V360H470" fill="none" stroke="#C8E6C9" stroke-width="5" stroke-linecap="round"/>
+<path d="M120 410H300V430H440" fill="none" stroke="#C8E6C9" stroke-width="5" stroke-linecap="round"/>
+<path d="M680 420H530V400H430" fill="none" stroke="#C8E6C9" stroke-width="5" stroke-linecap="round"/>
+<path d="M120 450H340V470H380" fill="none" stroke="#C8E6C9" stroke-width="5" stroke-linecap="round"/>
+<path d="M680 460H500V440H470" fill="none" stroke="#C8E6C9" stroke-width="5" stroke-linecap="round"/>
+  <rect x="320" y="220" width="160" height="160" rx="10" fill="#1C2B20"/>
+  <g stroke="#B0BEC5" stroke-width="6" stroke-linecap="round">
+    <path d="M345 205v15M385 205v15M425 205v15M455 205v15M345 380v15M385 380v15M425 380v15M455 380v15M305 250h15M305 290h15M305 330h15M480 250h15M480 290h15M480 330h15"/>
+  </g>
+  <circle cx="345" cy="245" r="7" fill="#F9A825"/>
+  <rect x="210" y="130" width="50" height="26" rx="4" fill="#1C2B20"/>
+  <rect x="540" y="470" width="90" height="26" rx="4" fill="#1C2B20"/>
+  <circle cx="570" cy="160" r="22" fill="#B0BEC5"/><circle cx="570" cy="160" r="10" fill="#1C2B20"/>
+  <circle cx="620" cy="190" r="16" fill="#B0BEC5"/><circle cx="620" cy="190" r="7" fill="#1C2B20"/>
+<circle cx="120" cy="130" r="7" fill="#F9A825"/><circle cx="120" cy="250" r="7" fill="#F9A825"/><circle cx="120" cy="370" r="7" fill="#F9A825"/><circle cx="680" cy="140" r="7" fill="#F9A825"/><circle cx="680" cy="260" r="7" fill="#F9A825"/><circle cx="680" cy="380" r="7" fill="#F9A825"/><circle cx="120" cy="450" r="7" fill="#F9A825"/><circle cx="680" cy="450" r="7" fill="#F9A825"/>
+</svg>

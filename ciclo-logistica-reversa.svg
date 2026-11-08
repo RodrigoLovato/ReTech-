@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="t d">
+  <title id="t">Ciclo da logística reversa</title>
+  <desc id="d">Cinco etapas em círculo: consumidor, ponto de coleta, triagem, reciclagem e indústria, ligadas por setas.</desc>
+  <rect width="800" height="600" fill="#F3F8F3"/>
+  <circle cx="380" cy="300" r="96" fill="#C8E6C9"/>
+  <path d="M352 336C352 292 380 262 440 258c0 48-28 78-72 78z" fill="#2E7D32"/>
+  <path d="M352 336l36-36" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+<path d="M380 130A170 170 0 0 1 542 247" fill="none" stroke="#43A047" stroke-width="6" stroke-dasharray="2 12" stroke-linecap="round"/>
+<path transform="translate(480 162) rotate(126)" d="M-12 8L0 -10L12 8z" fill="#2E7D32"/>
+<path d="M542 247A170 170 0 0 1 480 438" fill="none" stroke="#43A047" stroke-width="6" stroke-dasharray="2 12" stroke-linecap="round"/>
+<path transform="translate(542 353) rotate(198)" d="M-12 8L0 -10L12 8z" fill="#2E7D32"/>
+<path d="M480 438A170 170 0 0 1 280 438" fill="none" stroke="#43A047" stroke-width="6" stroke-dasharray="2 12" stroke-linecap="round"/>
+<path transform="translate(380 470) rotate(270)" d="M-12 8L0 -10L12 8z" fill="#2E7D32"/>
+<path d="M280 438A170 170 0 0 1 218 247" fill="none" stroke="#43A047" stroke-width="6" stroke-dasharray="2 12" stroke-linecap="round"/>
+<path transform="translate(218 353) rotate(342)" d="M-12 8L0 -10L12 8z" fill="#2E7D32"/>
+<path d="M218 247A170 170 0 0 1 380 130" fill="none" stroke="#43A047" stroke-width="6" stroke-dasharray="2 12" stroke-linecap="round"/>
+<path transform="translate(280 162) rotate(414)" d="M-12 8L0 -10L12 8z" fill="#2E7D32"/>
+<circle cx="380" cy="130" r="52" fill="#FFFFFF" stroke="#2E7D32" stroke-width="6"/>
+<text x="380" y="126" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#1B5E20">1</text>
+<text x="380" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1C2B20">Consumidor</text>
+<circle cx="542" cy="247" r="52" fill="#FFFFFF" stroke="#2E7D32" stroke-width="6"/>
+<text x="542" y="243" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#1B5E20">2</text>
+<text x="608" y="255" text-anchor="start" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1C2B20">Ponto de coleta</text>
+<circle cx="480" cy="438" r="52" fill="#FFFFFF" stroke="#2E7D32" stroke-width="6"/>
+<text x="480" y="434" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#1B5E20">3</text>
+<text x="546" y="446" text-anchor="start" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1C2B20">Triagem</text>
+<circle cx="280" cy="438" r="52" fill="#FFFFFF" stroke="#2E7D32" stroke-width="6"/>
+<text x="280" y="434" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#1B5E20">4</text>
+<text x="214" y="446" text-anchor="end" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1C2B20">Reciclagem</text>
+<circle cx="218" cy="247" r="52" fill="#FFFFFF" stroke="#2E7D32" stroke-width="6"/>
+<text x="218" y="243" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#1B5E20">5</text>
+<text x="152" y="255" text-anchor="end" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1C2B20">Indústria</text>
+
+</svg>

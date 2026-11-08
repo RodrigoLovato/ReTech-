@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="t d">
+  <title id="t">Campanha de descarte consciente em uma escola</title>
+  <desc id="d">Quadro escrito 'Descarte consciente' acima de três estudantes e de um coletor verde de eletrônicos.</desc>
+  <rect width="800" height="600" fill="#E3F1F7"/>
+  <rect y="520" width="800" height="80" fill="#C8E6C9"/>
+  <rect x="80" y="70" width="640" height="230" rx="14" fill="#1B5E20" stroke="#8D6E63" stroke-width="12"/>
+  <text x="400" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#FFFFFF">Descarte consciente</text>
+  <text x="400" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#E8F5E9">Eletrônico sem uso? Leve ao coletor.</text>
+  <path d="M300 250h200" stroke="#F9A825" stroke-width="6" stroke-linecap="round"/>
+<g transform="translate(130 330)"><circle cx="40" cy="30" r="30" fill="#8D6E63"/><rect x="5" y="66" width="70" height="110" rx="26" fill="#0B4F6C"/><rect x="12" y="170" width="22" height="70" rx="8" fill="#1C2B20"/><rect x="46" y="170" width="22" height="70" rx="8" fill="#1C2B20"/></g><g transform="translate(230 330)"><circle cx="40" cy="30" r="30" fill="#FFCC80"/><rect x="5" y="66" width="70" height="110" rx="26" fill="#2E7D32"/><rect x="12" y="170" width="22" height="70" rx="8" fill="#1C2B20"/><rect x="46" y="170" width="22" height="70" rx="8" fill="#1C2B20"/></g><g transform="translate(330 330)"><circle cx="40" cy="30" r="30" fill="#A1887F"/><rect x="5" y="66" width="70" height="110" rx="26" fill="#F9A825"/><rect x="12" y="170" width="22" height="70" rx="8" fill="#1C2B20"/><rect x="46" y="170" width="22" height="70" rx="8" fill="#1C2B20"/></g>
+  <g transform="translate(520 360)"><rect width="170" height="180" rx="16" fill="#2E7D32"/><rect x="-8" y="-12" width="186" height="30" rx="10" fill="#1B5E20"/><rect x="40" y="40" width="90" height="14" rx="7" fill="#1C2B20"/><circle cx="85" cy="110" r="30" fill="#FFFFFF"/><path d="M70 112l11 11 22-24" fill="none" stroke="#2E7D32" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

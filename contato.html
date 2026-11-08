@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contato | ReTech</title>
+  <meta name="description" content="Informações do projeto, integrantes da equipe EcoTech e formulário de contato com validação HTML5 (demonstração acadêmica).">
+  <meta name="author" content="Equipe EcoTech">
+  <meta name="theme-color" content="#2E7D32">
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/base.css">
+  <script src="js/menu.js" defer></script>
+  <script src="js/acessibilidade.js" defer></script>
+  <script src="js/contato.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" id="topo">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.svg" alt="" width="40" height="40">
+        <span>ReTech<small>Equipe EcoTech</small></span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-lista">Menu</button>
+      <nav class="site-nav" aria-label="Menu principal">
+        <ul class="nav-list" id="menu-lista">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="impacto.html">Impacto</a></li>
+            <li><a href="acessibilidade.html">Acessibilidade</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="midia.html">Mídia</a></li>
+            <li><a href="noticias.html">Notícias</a></li>
+            <li><a href="contato.html" aria-current="page">Contato</a></li>
+            <li><a href="orcamento_hospedagem.html">Orçamento</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" tabindex="-1">
+    <section class="page-hero" aria-labelledby="titulo-pagina">
+      <div class="container">
+        <p class="breadcrumb"><a href="index.html">Início</a> · Contato</p>
+        <h1 id="titulo-pagina">Contato</h1>
+        <p>Informações do projeto, a equipe EcoTech e um formulário de demonstração com validação HTML5.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="titulo-info">
+      <div class="container grid grid--2">
+        <div>
+          <p class="eyebrow">O projeto</p>
+          <h2 id="titulo-info">Informações gerais</h2>
+          <dl class="def-list">
+            <dt>Projeto</dt>
+            <dd>ReTech, site educativo sobre logística reversa de lixo eletrônico.</dd>
+            <dt>Equipe</dt>
+            <dd>EcoTech</dd>
+            <dt>Disciplina e curso</dt>
+            <dd>Front-End, Superior de Informática, UNICID.</dd>
+            <dt>Professor</dt>
+            <dd>Prof. Paulo Fratta</dd>
+          </dl>
+          <div class="notice notice--aviso">
+            <p>A equipe ainda não definiu um e-mail, telefone ou endereço público para o projeto, por isso eles não aparecem aqui. Quando existirem, serão divulgados nesta página.</p>
+          </div>
+        </div>
+        <div>
+          <h2>Integrantes</h2>
+          <ul>
+            <li>Pedro Henrique de Oliveira Medeiros: página inicial, sobre e CSS base.</li>
+            <li>Davi Cabral Paixão: página inicial, sobre e CSS base.</li>
+            <li>Lucas dos Santos Vicente Braga: projetos, impacto e galeria.</li>
+            <li>Laura Moreti: acessibilidade, mídia e notícias.</li>
+            <li>Pietro Tavares: acessibilidade, mídia e notícias.</li>
+            <li>Rodrigo Seriaco Lovato: contato, orçamento de hospedagem e documentação.</li>
+          </ul>
+          <p>As responsabilidades seguem o escopo do projeto. A revisão final, os testes, a acessibilidade e a validação são feitos por toda a equipe.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" aria-labelledby="titulo-form">
+      <div class="container grid grid--2">
+        <div>
+          <p class="eyebrow">Formulário</p>
+          <h2 id="titulo-form">Fale com a equipe</h2>
+          <div class="notice notice--aviso">
+            <h3>Demonstração acadêmica</h3>
+            <p>Este formulário não está ligado a nenhum servidor. Ele serve para demonstrar a validação HTML5. Ao clicar em “Enviar (demonstração)”, o navegador confere os campos e, se estiverem corretos, a página mostra uma confirmação de validação. <strong>Nada é enviado nem armazenado.</strong></p>
+          </div>
+          <p>Campos marcados com <span class="req">(obrigatório)</span> precisam ser preenchidos.</p>
+        </div>
+
+        <form class="form" id="form-contato" method="get" action="contato.html">
+          <div class="field">
+            <label for="nome">Nome <span class="req">(obrigatório)</span></label>
+            <input type="text" id="nome" name="nome" required minlength="3" maxlength="80" autocomplete="name" placeholder="Seu nome completo">
+          </div>
+
+          <div class="field">
+            <label for="email">E-mail <span class="req">(obrigatório)</span></label>
+            <input type="email" id="email" name="email" required maxlength="120" autocomplete="email" placeholder="nome@exemplo.com" aria-describedby="dica-email">
+            <span class="hint" id="dica-email">Use um formato como nome@exemplo.com.</span>
+          </div>
+
+          <div class="field">
+            <label for="telefone">Telefone para contato (opcional)</label>
+            <input type="tel" id="telefone" name="telefone" inputmode="tel" autocomplete="tel" maxlength="16" pattern="\(?\d{2}\)?\s?9?\d{4}-?\d{4}" title="Informe DDD e número, por exemplo (11) 91234-5678 ou 11 3456-7890" placeholder="(11) 91234-5678" aria-describedby="dica-telefone">
+            <span class="hint" id="dica-telefone">Com DDD, por exemplo (11) 91234-5678 ou 11 3456-7890.</span>
+          </div>
+
+          <div class="field">
+            <label for="data-contato">Data de preferência para contato (opcional)</label>
+            <input type="date" id="data-contato" name="data_contato" aria-describedby="dica-data">
+            <span class="hint" id="dica-data">Escolha hoje ou uma data futura.</span>
+          </div>
+
+          <div class="field">
+            <label for="quantidade">Quantidade de equipamentos eletrônicos para descarte (opcional)</label>
+            <input type="number" id="quantidade" name="quantidade" min="0" max="999" step="1" inputmode="numeric" title="Informe um número inteiro entre 0 e 999" aria-describedby="dica-quantidade">
+            <span class="hint" id="dica-quantidade">Número inteiro de 0 a 999. Este campo é só um exemplo de validação numérica.</span>
+          </div>
+
+          <div class="field">
+            <label for="assunto">Assunto <span class="req">(obrigatório)</span></label>
+            <select id="assunto" name="assunto" required>
+              <option value="">Selecione um assunto</option>
+              <option value="duvida">Dúvida sobre o conteúdo</option>
+              <option value="sugestao">Sugestão de melhoria</option>
+              <option value="noticia">Indicação de notícia ou fonte</option>
+              <option value="acessibilidade">Barreira de acessibilidade</option>
+              <option value="outro">Outro assunto</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="mensagem">Mensagem <span class="req">(obrigatório)</span></label>
+            <textarea id="mensagem" name="mensagem" required minlength="10" maxlength="1000" aria-describedby="dica-mensagem"></textarea>
+            <span class="hint" id="dica-mensagem">Escreva de 10 a 1000 caracteres.</span>
+          </div>
+
+          <div class="field field--check">
+            <label for="ciencia">
+              <input type="checkbox" id="ciencia" name="ciencia" required>
+              <span>Estou ciente de que este é um formulário de demonstração e que nada será enviado <span class="req">(obrigatório)</span></span>
+            </label>
+          </div>
+
+          <div class="btn-row">
+            <button class="btn" type="submit">Enviar (demonstração)</button>
+            <button class="btn btn--ghost" type="reset">Limpar campos</button>
+          </div>
+
+          <div class="form-status" id="resultado-formulario" role="status" tabindex="-1"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2>ReTech</h2>
+          <p>Site educativo sobre logística reversa de lixo eletrônico, sustentabilidade e descarte correto.</p>
+          <p>Projeto acadêmico da disciplina de Front-End (UNICID), orientado pelo Prof. Paulo Fratta. O ReTech não é uma organização constituída.</p>
+        </div>
+        <div>
+          <h2>Navegação</h2>
+          <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="impacto.html">Impacto</a></li>
+          <li><a href="acessibilidade.html">Acessibilidade</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="midia.html">Mídia</a></li>
+          <li><a href="noticias.html">Notícias</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="orcamento_hospedagem.html">Orçamento</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Equipe EcoTech</h2>
+          <ul>
+            <li>Pedro Henrique de Oliveira Medeiros</li>
+            <li>Davi Cabral Paixão</li>
+            <li>Pietro Tavares</li>
+            <li>Lucas dos Santos Vicente Braga</li>
+            <li>Laura Moreti</li>
+            <li>Rodrigo Seriaco Lovato</li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-bottom"><a href="#topo">Voltar ao menu principal</a> · <a href="acessibilidade.html">Acessibilidade</a> · Conteúdo educativo; fontes e créditos em cada página.</p>
+    </div>
+  </footer>
+</body>
+</html>
